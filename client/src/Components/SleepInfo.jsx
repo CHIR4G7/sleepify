@@ -21,6 +21,7 @@ const SleepInfo = () => {
       avg += Number(sleep.hours);
     });
     avg /= sleeps.length;
+    avg = Math.floor(avg);
   }
   console.log(avg);
 

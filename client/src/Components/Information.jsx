@@ -1,5 +1,4 @@
 import React from "react";
-import infoGif from "../assets/infogif.jpeg";
 import Info from "./Info";
 import { benefits } from "../constants/constants";
 
