@@ -18,7 +18,7 @@ const Home = () => {
         </div>
         {/* MAIN DIV */}
         <div className='text-white flex flex-col justify-center items-center mt-8 sm:ml-2'>
-            <span className='sm:text-6xl lg:text-8xl font-bold '>
+            <span className='text-6xl md:text-6xl lg:text-8xl font-bold '>
             Unlock the <span className='text-purple-700 bg-gradient-to-r from-orange-700 via-blue-500 to-green-400 text-transparent bg-clip-text bg-300% animate-gradient'>power</span> <br/>of a Restful <span className='text-indigo-700 bg-gradient-to-r from-orange-700 via-blue-500 to-green-400 text-transparent bg-clip-text bg-300% animate-gradient'>Sleep</span>.
             </span>
           
