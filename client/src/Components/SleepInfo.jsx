@@ -28,19 +28,19 @@ const SleepInfo = () => {
   return (
     <div className="h-full">
       {/* <button className='border-2' onClick={handleClick}>click</button> */}
-      <div className="flex flex-col gap-5 md:ml-4">
-        <h1 className="lg:text-8xl md:text-6xl">
+      <div className="flex flex-col gap-5 sm:ml-4">
+        <h1 className="lg:text-8xl sm:text-6xl">
           Your{" "}
           <span className="text-indigo-700 bg-gradient-to-r from-orange-700 via-blue-500 to-green-400 text-transparent bg-clip-text bg-300% animate-gradient">
             Stats
           </span>
         </h1>
-        <div className="flex md:flex-col lg:flex-row lg:space-x-16 md:space-y-12">
+        <div className="flex sm:flex-col lg:flex-row lg:space-x-16 sm:space-y-12">
           <div className="flex flex-col items-center">
           <SleepCharts />
           <span>Visual Representation</span>
           </div>
-          <div className="md:ml-[150px]">
+          <div className="sm:ml-[10px]">
           <SleepTable />
           </div>
           
@@ -48,16 +48,16 @@ const SleepInfo = () => {
       </div>
       <div className="flex flex-col gap-[80px]">
         <div className="flex flex-col justify-center items-center gap-10 mt-[100px]">
-          <span className="lg:text-7xl md:text-5xl">
+          <span className="lg:text-7xl sm:text-5xl">
             Your{" "}
             <span className="text-indigo-700 bg-gradient-to-r from-orange-700 via-blue-500 to-green-400 text-transparent bg-clip-text bg-300% animate-gradient">
               Average Sleep Time
             </span>{" "}
             : {avg}
           </span>
-          {avg >= 8 ? <span className="text-6xl">
+          {avg >= 8 ? <span className="sm:text-3xl lg:text-6xl">
             Great ! Keep It Up!
-          </span> : <span className="text-6xl">
+          </span> : <span className="sm:text-3xl lg:text-6xl">
             You Seem Busy ! Please Sleep More
             </span>}
         </div>
