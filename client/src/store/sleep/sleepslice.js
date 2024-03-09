@@ -1,7 +1,7 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 import axios from "axios";
 
-const BASE_URL = "http://localhost:4050";
+const BASE_URL = "https://sleepify-vmgb.onrender.com";
 
 const initialState = {
   sleeps: [],

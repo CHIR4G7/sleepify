@@ -3,7 +3,7 @@ import axios from "axios";
 import { jwtDecode } from "jwt-decode";
 import { useNavigate } from "react-router-dom";
 
-const BASE_URL = "http://localhost:4050";
+const BASE_URL = "https://sleepify-vmgb.onrender.com";
 
 
 const decode = (token)=>{
