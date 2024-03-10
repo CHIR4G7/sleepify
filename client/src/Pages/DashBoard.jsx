@@ -9,15 +9,15 @@ import SleepInfo from "../Components/SleepInfo";
 
 const DashBoard = () => {
     const navigate = useNavigate();
+    const user = useSelector((state) => state.auth.user);
   useEffect(() => {
     const user = localStorage.getItem("user");
     if (!user) {
       navigate("/login");
     }
-  }, []);
+  }, [user]);
 
-  
-  const user = useSelector((state) => state.auth.user);
+
 
   const [addsleep,setAddSleep] = useState(false);
   const today = new Date();
