@@ -9,6 +9,7 @@ const BASE_URL = "https://sleepify-vmgb.onrender.com";
 const decode = (token)=>{
     if(!token)
     {
+       localStorage.removeItem('user');
         return;
     }
     const data = jwtDecode(token);
